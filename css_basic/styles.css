@@ -1,0 +1,14 @@
+.container {
+    width: auto;
+    height: auto;
+    padding: 10px 10px;
+    border: 1px solid #ffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > * {
+    padding: 10px;
+    height: 200px;
+    width: 350px;
+}
