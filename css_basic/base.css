@@ -35,11 +35,11 @@ span {
 }
 
 table:hover {
-    align-items: center;
-    display: flex;
-    padding: 10px;
-    height: 200px;
-    width: 350px;
+    margin: 30px auto 30px;
+    background-color: darkblue; 
+    border: thick double #ffff;
+    text-align: center; 
+    justify-content: center;
 
 }
 
