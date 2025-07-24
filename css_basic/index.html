@@ -39,69 +39,104 @@
             width: 350px;
 
         }
+    header {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 10px 30px 0 0;
+      background: inherit;
+    }
+    header ul {
+      display: flex;
+      gap: 30px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    header li {
+      margin: 0;
+      padding: 0;
+    }
+    header a {
+      color: #ffff;
+      text-decoration: none;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+    /* Remove default ul margin in header */
+    
+    /* Responsive for mobile */
+    @media (max-width: 600px) {
+      header ul {
+        gap: 10px;
+      }
+      header {
+        padding-right: 10px;
+      }
+    }
     </style>
 
 </head>
 <body class="works_on_smartphone">
-<main>
-    <h1>Blog <span><em>Demo</em></span></h1>
-
-    <div>
+  <header>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tweets.html">Tweets</a></li>
+    </ul>
+  </header>
+  <main>
+    <article>
+      <h1>Blog <span><em>Demo</em></span></h1>
+      <div>
         <h2>Welcome to my blog</h2>
         <p>My name is Moses Rametsi, and I am a software developer.</p>
         <a href="tweets.html" target="_blank">My tweet 💭</a>
-
         <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" alt="Person coding" style="width: 15%; height: auto; border-radius: 50px; margin: auto; display: block;">
         <h2>About Me</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est doloremque et, sint molestiae repudiandae velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugit animi, cumque vitae vel ad commodi error, eius, fuga alias adipisci expedita ducimus voluptates aliquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi hic eius quos ut natus repudiandae. Eos veritatis quisquam impedit id maiores atque quo sapiente quas? Eos sint voluptate quae officia.</p>
-    </div>
-
-    <div>
-        <aside>
-            <h3>Post</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis incidunt vel accusamus voluptatum, porro, perferendis quas rerum eos sapiente natus id iusto quod sit, provident aut aperiam esse soluta enim!</p>
-        </aside>
-    <div class="container">
-        <table>
-            
+      </div>
+      <div>
+        <h3>Post</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis incidunt vel accusamus voluptatum, porro, perferendis quas rerum eos sapiente natus id iusto quod sit, provident aut aperiam esse soluta enim!</p>
+        <div class="container">
+          <table>
             <tr>
-                <td><strong>Name</strong></td>
-                <td><strong>Age</strong></td>
-                <td><strong>Country</strong></td>
+              <td><strong>Name</strong></td>
+              <td><strong>Age</strong></td>
+              <td><strong>Country</strong></td>
             </tr>
             <tr>
-                <td>John</td>
-                <td>25</td>
-                <td>USA</td>
+              <td>John</td>
+              <td>25</td>
+              <td>USA</td>
             </tr>
             <tr>
-                <td>Emily</td>
-                <td>28</td>
-                <td>Canada</td>
+              <td>Emily</td>
+              <td>28</td>
+              <td>Canada</td>
             </tr>
             <tr>
-                <td>Michael</td>
-                <td>32</td>
-                <td>Australia</td>
+              <td>Michael</td>
+              <td>32</td>
+              <td>Australia</td>
             </tr>
             <tr>
-                <td>Sophia</td>
-                <td>21</td>
-                <td>UK</td>
+              <td>Sophia</td>
+              <td>21</td>
+              <td>UK</td>
             </tr>
-           
-            
-        </table>
-    </div>
-        
-    </div>
-
-    <h3>Contact Me</h3>
-        <p>You can reach me at: <a href="mailto:moses@example.com">moses@example.com</a></p>
-    <footer style="color: #ffff; text-decoration: none; font-size: 1.2em; text-align: center; background-color: black; margin-top: 25px;">Made by Moses Rametsi - &copy; 2025</footer>
-    
-   
-
-</main>
+          </table>
+        </div>
+      </div>
+      <h3>Contact Me</h3>
+      <p>You can reach me at: <a href="mailto:moses@example.com">moses@example.com</a></p>
+    </article>
+    <aside>
+      <p>placeholder to add comment thread later</p>
+    </aside>
+  </main>
+  <footer>
+    <p>Made by Moses Rametsi - <a href="https://github.com/bblack-jew" target="_blank">here</a>.</p>
+  </footer>
 </body>
 </html>
