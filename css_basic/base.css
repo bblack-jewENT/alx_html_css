@@ -5,6 +5,7 @@
 * {
     background-color: var(--main-bg-color);
     letter-spacing: 0.1rem;
+    transition: all 0.3s ease;
 }
 
 h1 {
@@ -40,6 +41,7 @@ table:hover {
     border: thick double #ffff;
     text-align: center; 
     justify-content: center;
+    transition: background-color 0.3s ease, border 0.3s ease, margin 0.3s ease;
 
 }
 

@@ -11,6 +11,7 @@
 
         * {
             background-color: rgb(36, 124, 124);
+            transition: all 0.3s ease;
         }
 
         p {
@@ -21,14 +22,16 @@
             color: #ffff;
             text-decoration: none;
             font-size: 1.2em;
+            transition: color 0.3s ease, text-decoration 0.3s ease;
         }
 
         a:active {
             color: darkblue;
-         }
-
+            transition: color 0.3s ease;
+        }
         a:hover {
             text-decoration: underline;
+            transition: text-decoration 0.3s ease, color 0.3s ease;
         }
         
         header {
