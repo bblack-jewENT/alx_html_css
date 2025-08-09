@@ -9,3 +9,11 @@ body {
     margin: 0 130px;
 }
 
+.header .header-logo {
+    display: flex;
+}
+
+.header-logo-image {
+    margin-top: 5px;
+}
+
