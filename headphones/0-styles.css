@@ -2,3 +2,10 @@ body {
     background-image: url('images/headphones_hero_1.jpg');
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 0 130px;
+}
+
