@@ -23,6 +23,28 @@ body {
     font-family: monospace;
 }
 
+.header ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.header ul li a {
+    color: #ffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header ul li a:hover {
+    color: rgb(150, 29, 29);
+}
+
+.section-home {
+    display: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .header .header-logo .header-name span {
     color: #fff;
 }
@@ -30,4 +52,5 @@ body {
 .header ul {
     display: flex;
 }
+
 
