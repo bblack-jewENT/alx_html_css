@@ -4,6 +4,7 @@ html, body {
     padding: 0;
     height: 100%;
 }
+
 /* Center content under header-logo */
 .centered-content {
     display: flex;
@@ -13,8 +14,6 @@ html, body {
     width: 100%;
     margin-top: 30px;
 }
-
-
 
 .main-content {
     background-image: url('images/headphones_hero_1.jpg');
@@ -28,7 +27,17 @@ html, body {
 }
 
 .service-content-section {
+    text-align: center;
     background: #fff;
+}
+
+.service-container {
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    margin: 30px 80px;
+    padding-bottom: 30px;
+    justify-content: space-around;
 }
 
 .service-heading {
@@ -38,6 +47,14 @@ html, body {
     margin-top: 35px;
     padding: 25px;
 
+}
+
+.service-p {
+    margin-left: 390px;
+    margin-bottom: 95px;
+    font-weight: bold;
+    text-align: center;
+    width: 50%;
 }
 
 .header {
