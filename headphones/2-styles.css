@@ -63,6 +63,24 @@ html, body {
     font-weight: bold;
 }
 
+.result-container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.result-container p {
+    width: 650px;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.result-container h1 {
+    margin-top: 210px;
+}
+
 .result-pentagone-container {
     display: flex;
     justify-content: center;
