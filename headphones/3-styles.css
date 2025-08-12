@@ -364,12 +364,27 @@ html, body {
     justify-content: center;
 }
 
+.contact-header {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 135px;;
+}
+
 .registration-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 35px 550px;
+    padding-bottom: 135px;
     outline: none;
+}
+
+.registration-form #name,
+#email,
+#message {
+    padding: 35px 15px;
+    border: none;
+    font-size: 24px;
 }
 
 .header {
