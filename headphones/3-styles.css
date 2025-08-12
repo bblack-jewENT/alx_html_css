@@ -212,6 +212,7 @@
         font-size: 1em;
     }
 }
+
 .result-pentagone-container {
     position: relative;
     text-align: center;
@@ -361,6 +362,14 @@ html, body {
     text-align: center;
     display: flex;
     justify-content: center;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 35px 550px;
+    outline: none;
 }
 
 .header {
