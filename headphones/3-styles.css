@@ -387,6 +387,25 @@ html, body {
     font-size: 24px;
 }
 
+#submit-button {
+    color: white;
+    background-color:rgb(150, 29, 29);
+    padding: 20px 25px;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer; 
+    width: 250px;
+    margin-left: 185px;
+}
+
+#submit-button:hover {
+    opacity: 0.9; 
+}
+
+#submit-button:active {
+    opacity: 0.7;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -633,6 +652,7 @@ html, body {
         font-size: 1em;
     }
 }
+
 
 
 
