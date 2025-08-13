@@ -1,3 +1,57 @@
+@media (max-width: 600px) {
+    .footer-section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 18px 0 10px 0;
+        gap: 10px;
+    }
+    .footer-section img {
+        width: 60px !important;
+        height: auto !important;
+        margin-bottom: 8px;
+    }
+    .footer-social {
+        gap: 12px;
+        margin: 10px 0 8px 0;
+    }
+    .footer-social .social-icon {
+        font-size: 1em;
+        width: 1.4em;
+        height: 1.4em;
+    }
+    .footer-section p {
+        font-size: 0.95em;
+        margin: 0;
+    }
+}
+.footer-social {
+    margin: 18px 0 10px 0;
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-social .social-icon {
+    color: rgb(9, 9, 34);
+    font-size: 1.2em;
+    transition: color 0.2s, background 0.2s;
+    text-decoration: none;
+    background: #fff;
+    border-radius: 50%;
+    width: 1.8em;
+    height: 1.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    border: 1px solid #eee;
+}
+.footer-social .social-icon:hover {
+    color: #fff;
+    background: rgb(9, 9, 34);
+}
 @media (max-width: 480px) {
     .registration-form {
         padding: 20px 8px 40px 8px;
@@ -439,11 +493,51 @@ html, body {
 
 .footer-section {
     display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     font-size: 24px;
-    padding: 150px 0;
-    gap: 50px;
+    gap: 120px;
+    padding: 70px 0;
     background-color: rgb(9, 9, 34);
+    flex-wrap: wrap;
+}
+@media (max-width: 900px) {
+    .footer-section {
+        gap: 48px;
+        padding: 48px 0;
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 32px;
+        padding: 32px 0 18px 0;
+    }
+    .footer-section img {
+        width: 48px !important;
+        height: auto !important;
+        margin-bottom: 10px;
+        padding-left: 0 !important;
+    }
+    .footer-social {
+        gap: 24px;
+        margin: 16px 0 12px 0;
+    }
+    .footer-social .social-icon {
+        font-size: 1em;
+        width: 1.4em;
+        height: 1.4em;
+    }
+    .footer-section p {
+        font-size: 0.98em;
+        margin: 0;
+    }
 }
 
 .header {
