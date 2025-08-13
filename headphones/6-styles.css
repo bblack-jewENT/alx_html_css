@@ -284,7 +284,7 @@
         padding: 0 5px;
     }
     .call-to-action-btn {
-        width: 100%;
+        width: 50%;
         padding: 12px 0;
         font-size: 1em;
     }
@@ -587,6 +587,10 @@ html, body {
     border-radius: 25px;
     margin-top: 25px;
     cursor: pointer;
+}
+
+.call-to-action-btn:hover {
+    background-color: red;
 }
 
 .section-home-p2 {
