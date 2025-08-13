@@ -1,3 +1,13 @@
+/* Scroll Animation for Sections */
+.scroll-animate {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s cubic-bezier(.77,0,.18,1), transform 0.8s cubic-bezier(.77,0,.18,1);
+}
+.scroll-animate.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
 #nav-menu.show li {
     opacity: 0;
     transform: translateY(30px);
